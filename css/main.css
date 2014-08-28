@@ -49,3 +49,77 @@
   border-radius: 25px 175px 175px 25px;
   background: linear-gradient(to right, #ae001d 0%, #ae001d 17%, transparent 17%, transparent 50%), linear-gradient(to bottom, transparent 40%, #fff 40%, #fff 43%, #ae001d 44%, #ae001d 60%, #fff 60%, #fff 63%, transparent 60%);
 }
+
+#outlaw {
+  background-color: #c2c2c2;
+}
+
+#outlaw div {
+  width: 175px;
+  height: 175px;
+  margin-left: -125px;
+  margin-top: -140px;
+  border-radius: 50%;
+  border: solid #151123 12px;
+  background-image: radial-gradient(circle at 119px 58px, #fff 7px, rgba(255,255,255,0) 7px), radial-gradient(circle at 118px 52px, #fff 5px, rgba(255,255,255,0) 5px), radial-gradient(circle at 107px 55px, #fff 10px, rgba(255,255,255,0) 10px), radial-gradient(circle at 89px 51px, #fff 15px, rgba(255,255,255,0) 15px), radial-gradient(circle at 71px 49px, #fff 16px, rgba(255,255,255,0) 16px), radial-gradient(circle at 55px 61px, #fff 6px, rgba(255,255,255,0) 6px), linear-gradient(to right, #464251 50%, #42404e 50%, #42404e 100%);
+}
+
+#outlaw div:before {
+  margin-top: 81px;
+  margin-left: 114px;
+  width: 22px;
+  height: 38px;
+  border-top-right-radius: 13px 13px;
+  border-bottom-right-radius: 13px 13px;
+  border-top-left-radius: 13px 13px;
+  border-bottom-left-radius: 13px 13px;
+  background-image: radial-gradient(ellipse farthest-corner at 10px 20px, #42404e 0px, #42404e 7px, #fff 7px);
+}
+
+#outlaw div:after {
+  width: 60px;
+  height: 71px;
+  margin-top: 69px;
+  margin-left: 54px;
+  background-color: #f6c34e;
+  border: solid #fff 3px;
+  border-top-left-radius: 6px 73px;
+  border-top-right-radius: 6px 73px;
+  border-bottom-left-radius: 42px 14px;
+  border-bottom-right-radius: 42px 14px;
+  background-image:
+    radial-gradient(circle at 46px 56px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 46px 52px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 46px 48px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 46px 44px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 46px 40px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 46px 36px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 46px 32px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 46px 28px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 46px 24px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 46px 20px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 46px 16px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+
+    radial-gradient(circle at 31px 56px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 31px 52px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 31px 48px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 31px 44px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 31px 40px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 31px 36px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 31px 32px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 31px 28px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 31px 24px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 31px 20px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+
+    radial-gradient(circle at 16px 56px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 16px 52px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 16px 48px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 16px 44px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 16px 40px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 16px 36px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 16px 32px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 16px 28px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 16px 24px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 16px 20px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
+    radial-gradient(circle at 16px 16px, #f1de82 2px, rgba(241, 222, 130,0) 5px, #f6c34e 6px, #f6c34e 100%);
+}
