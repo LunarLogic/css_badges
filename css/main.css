@@ -36,7 +36,7 @@
   margin-top: 12px;
   margin-left: 12px;
   background-color: #00116c;
-  background-image: linear-gradient(to bottom, transparent 40%, #fff 40%, #fff 43%, #c4001c 44%, #c4001c 60%, #fff 60%, #fff 63%, transparent 60%), linear-gradient(to right, transparent 38%, #fff 38%, #fff 41%, #c4001c 42%, #c4001c 50%, #fff 50%, #fff 62%, transparent 62%);
+  background-image: linear-gradient(to bottom, transparent 40%, #fff 40%, #fff 43%, #c4001c 44%, #c4001c 60%, #fff 60%, #fff 63%, transparent 60%), linear-gradient(to right, transparent 38%, #fff 38%, #fff 41%, #c4001c 42%, #c4001c 50%, #fff 50%, #fff 62%, transparent 62%), linear-gradient(216deg, transparent 45%, #fff 45%, #fff 50%, #c4001c 47%, #c4001c 53%, #fff 50%, #fff 55%, transparent 55%), linear-gradient(144deg, transparent 44%, #fff 44%, #fff 49%, #c4001c 45%, #c4001c 52%, #fff 52%, #fff 54%, transparent 54%);
   border-radius: 50%;
 }
 
@@ -46,6 +46,6 @@
   margin-top: 12px;
   margin-left: 84px;
   border-left: solid #c4001c 16px;
-  border-radius: 0 175px 175px 0;
+  border-radius: 25px 175px 175px 25px;
   background: linear-gradient(to right, #ae001d 0%, #ae001d 17%, transparent 17%, transparent 50%), linear-gradient(to bottom, transparent 40%, #fff 40%, #fff 43%, #ae001d 44%, #ae001d 60%, #fff 60%, #fff 63%, transparent 60%);
 }
