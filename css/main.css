@@ -1,0 +1,51 @@
+.badges {
+  text-align: center;
+  min-height: 400px;
+  position: relative;
+}
+
+.badges div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.badges div:before,
+.badges div:after {
+  display: block;
+  content: '';
+  position: absolute;
+}
+
+#dziabadziaba {
+  background-color: #3aaed1;
+}
+
+#dziabadziaba div {
+  width: 200px;
+  height: 200px;
+  margin-left: -125px;
+  margin-top: -140px;
+  background-color: #dadada;
+  border-radius: 50%;
+}
+
+#dziabadziaba div:before {
+  width: 175px;
+  height: 175px;
+  margin-top: 12px;
+  margin-left: 12px;
+  background-color: #00116c;
+  background-image: linear-gradient(to bottom, transparent 40%, #fff 40%, #fff 43%, #c4001c 44%, #c4001c 60%, #fff 60%, #fff 63%, transparent 60%), linear-gradient(to right, transparent 38%, #fff 38%, #fff 41%, #c4001c 42%, #c4001c 50%, #fff 50%, #fff 62%, transparent 62%);
+  border-radius: 50%;
+}
+
+#dziabadziaba div:after {
+  width: 88px;
+  height: 175px;
+  margin-top: 12px;
+  margin-left: 84px;
+  border-left: solid #c4001c 16px;
+  border-radius: 0 175px 175px 0;
+  background: linear-gradient(to right, #ae001d 0%, #ae001d 17%, transparent 17%, transparent 50%), linear-gradient(to bottom, transparent 40%, #fff 40%, #fff 43%, #ae001d 44%, #ae001d 60%, #fff 60%, #fff 63%, transparent 60%);
+}
