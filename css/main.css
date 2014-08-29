@@ -123,3 +123,53 @@
     radial-gradient(circle at 16px 20px, #f1de82 2px, rgba(241, 222, 130,0) 5px),
     radial-gradient(circle at 16px 16px, #f1de82 2px, rgba(241, 222, 130,0) 5px, #f6c34e 6px, #f6c34e 100%);
 }
+
+#penguin div {
+  width: 175px;
+  height: 175px;
+  margin-left: -125px;
+  margin-top: -140px;
+  border-radius: 50%;
+  border: solid black 12px;
+}
+
+#penguin div:before {
+  width: 6px;
+  height: 6px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 68px;
+  margin-top: 87px;
+  box-shadow:  
+    16px 20px 0 25px white,
+    35px 0 0 0 black, 
+    17px -2px 0 55px black, 
+    17px -2px 0 85px #B16451, 
+    18px 0 0 53px black;
+}
+
+#penguin div:after {
+  left: 50%;
+  top: 56.5%;
+  margin-left: -20px;
+  width: 0;
+  height: 0;
+  border-right: 20px solid white;
+  border-top: 20px solid orange; 
+  border-left: 20px solid white; 
+  border-bottom: 20px solid white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; 
+  border-bottom-left-radius: 20px; 
+  border-bottom-right-radius: 20px;
+  box-shadow: 
+    -20px -30px 0 -16px black, 
+    20px -30px 0 -16px black,
+    -23.5px -36px 0 2px white,
+    24px -36px 0 2px white, 
+    0 -70px 0 -3px black, 
+    0 -61px 0 7px black,
+    -13px -61px 0 5px black, 
+    13px -61px 0 5px black,
+    0px -26px 0 26px white;
+}
