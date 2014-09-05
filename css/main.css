@@ -284,7 +284,7 @@
   left: 50%;
   margin-left: -43px;
   background-image: 
-    linear-gradient(to bottom, transparent 62%, #fff 62%, #fff 63.5%, transparent 63.5%),
+    linear-gradient(to bottom, transparent 62%, #fff 62%, #fff 64%, transparent 64%),
     
     radial-gradient(circle at 44px 100px, white 2px, transparent 1px),
     radial-gradient(circle at 44px 98px, white 2px, transparent 1px),
