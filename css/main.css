@@ -223,3 +223,93 @@
   border-radius: 50%;
   background-image: radial-gradient(circle at 25px 27px, #000 3px, rgba(0, 0, 0,1) 3px, #3d7200 3px, #3d7200 7px, #d0d2cd 8px);
 }
+
+#pieroger {
+  background-color: black;
+}
+
+#pieroger div {
+  width: 175px;
+  height: 175px;
+  margin-left: -125px;
+  margin-top: -140px;
+  border-radius: 50%;
+  border: solid #FAD78B 12px;
+  background-color: #7A513A;
+}
+
+#pieroger div:before {
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform:    rotate(0deg);
+  -ms-transform:     rotate(90deg);
+  -o-transform:      rotate(90deg);
+  transform:         rotate(-45deg);
+  width: 0px;
+  height: 0px;
+  left: 50%;
+  top: 40%;
+  margin-left: -40px;
+  border-top: 40px solid #FAD78B;
+  border-left: 40px solid #7A513A;
+  border-right: 40px solid #FAD78B;
+  border-bottom: 40px solid #7A513A;
+  background-color: #FAD78B;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 
+    -24px -35px 0 -33px #FAD78B, 
+    -9px -40px 0 -33px #FAD78B, 
+    7px -40px 0 -33px #FAD78B, 
+    23px -35px 0 -33px #FAD78B,
+    35px -24px 0 -33px #FAD78B, 
+    40px -8px 0 -33px #FAD78B, 
+    40px 8px 0 -33px #FAD78B, 
+    34px 23px 0 -33px #FAD78B,
+    -24px -35px 0 -30px white, 
+    -9px -40px 0 -30px white, 
+    7px -40px 0 -30px white, 
+    23px -35px 0 -30px white,
+    35px -24px 0 -30px white, 
+    40px -8px 0 -30px white, 
+    40px 8px 0 -30px white, 
+    34px 23px 0 -30px white;
+}
+
+#pieroger div:after {
+  width: 85px;
+  height: 175px;
+  left: 50%;
+  margin-left: -43px;
+  background-image: 
+    linear-gradient(to bottom, transparent 62%, #fff 62%, #fff 63.5%, transparent 63.5%),
+    
+    radial-gradient(circle at 44px 100px, white 2px, transparent 1px),
+    radial-gradient(circle at 44px 98px, white 2px, transparent 1px),
+    radial-gradient(circle at 44px 96px, white 2px, transparent 1px),
+    radial-gradient(circle at 44px 94px, white 2px, transparent 1px),
+    radial-gradient(circle at 44px 92px, white 2px, transparent 1px),
+    radial-gradient(circle at 44px 90px, white 2px, transparent 1px),
+    radial-gradient(circle at 44px 88px, white 2px, transparent 1px),
+    radial-gradient(circle at 44px 86px, white 2px, transparent 1px),
+    radial-gradient(circle at 44px 84px, white 2px, transparent 1px),
+    radial-gradient(circle at 44px 82px, white 2px, transparent 1px),
+
+    radial-gradient(circle at 36px 102px, white 2px, transparent 1px),
+    radial-gradient(circle at 34px 100px, white 2px, transparent 1px),
+    radial-gradient(circle at 32px 98px, white 2px, transparent 1px),
+    radial-gradient(circle at 30px 96px, white 2px, transparent 1px),
+    radial-gradient(circle at 28px 94px, white 2px, transparent 1px),
+    radial-gradient(circle at 26px 92px, white 2px, transparent 1px),
+    radial-gradient(circle at 24px 90px, white 2px, transparent 1px),
+ 
+    radial-gradient(circle at 51px 102px, white 2px, transparent 1px),
+    radial-gradient(circle at 53px 100px, white 2px, transparent 1px),
+    radial-gradient(circle at 55px 98px, white 2px, transparent 1px),
+    radial-gradient(circle at 57px 96px, white 2px, transparent 1px),
+    radial-gradient(circle at 59px 94px, white 2px, transparent 1px),
+    radial-gradient(circle at 61px 92px, white 2px, transparent 1px),
+    radial-gradient(circle at 63px 90px, white 2px, transparent 1px);
+}
