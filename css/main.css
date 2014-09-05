@@ -238,15 +238,15 @@
   background-color: #7A513A;
   background-image: 
     linear-gradient(to top, #7A513A 38%, transparent 38%),
-    radial-gradient(circle at 86px 119px, #FAD78B 50px, transparent 1px);
+    radial-gradient(circle at 86px 116px, #FAD78B 46px, transparent 1px);
 }
 
 #pieroger div:before {
   display: inline-block;
-  -webkit-transform: rotate(90deg);
-  -moz-transform:    rotate(0deg);
-  -ms-transform:     rotate(90deg);
-  -o-transform:      rotate(90deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform:    rotate(-45deg);
+  -ms-transform:     rotate(-45deg);
+  -o-transform:      rotate(-45deg);
   transform:         rotate(-45deg);
   width: 0px;
   height: 0px;
